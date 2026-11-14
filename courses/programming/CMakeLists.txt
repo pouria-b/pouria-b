@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(ProgrammingCoursework LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+add_executable(hill_cipher hill_cipher.cpp)
+add_executable(sudoku sudoku.cpp)

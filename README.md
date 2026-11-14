@@ -36,6 +36,12 @@ Eight-state binary DFA accepting strings whose third symbol from the right is 1.
 
 [Documentation](courses/theory-of-computation/README.md) · [Code](courses/theory-of-computation/automaton.py)
 
+### Programming — Hill Cipher and Sudoku
+
+Reviewed C++17 encryption and puzzle-solving programs with checked input and nine compiled regression tests. Original uploads are preserved; the Sudoku source's AG/April 2007 provenance is documented.
+
+[Documentation](courses/programming/README.md) · [Code](courses/programming)
+
 ## Training
 
 - Rahnema College: Back-End Development Bootcamp, November 2025 — Node.js, TypeScript, Docker, databases, testing and CI/CD.

@@ -30,5 +30,13 @@
     "summary": "Eight-state binary automaton with optional interactive visualization, explicit acceptance, reset and undo. Seven tests cover all 16 transitions and 8,191 input strings; GUI execution remains unverified.",
     "url": "courses/theory-of-computation/",
     "source": "courses/theory-of-computation/source.zip"
+  },
+  {
+    "title": "Programming — Hill Cipher & Sudoku",
+    "category": "University coursework",
+    "language": "C++17",
+    "summary": "Reviewed 3×3 Hill Cipher encryption and a Sudoku backtracking solver with input validation, source provenance, build instructions, and nine compiled regression tests.",
+    "url": "courses/programming/",
+    "source": "courses/programming/source.zip"
   }
 ]
