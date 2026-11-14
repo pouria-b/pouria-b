@@ -1,0 +1,2 @@
+# Optional: only needed for --plot or --output.
+matplotlib>=3.7,<4

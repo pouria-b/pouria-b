@@ -6,5 +6,13 @@
     "summary": "Sixteen implementations covering sorting, searching, dynamic programming, graphs, greedy methods, and recursion. Includes run instructions, examples, and documented limitations.",
     "url": "courses/algorithms/",
     "source": "courses/algorithms/source.zip"
+  },
+  {
+    "title": "Operating Systems — CPU Scheduling",
+    "category": "University coursework",
+    "language": "Python",
+    "summary": "Six scheduling policies: FCFS, Round Robin, SPN, SRTF, HRRN, and MLFQ. Includes corrected code, Gantt charts, scheduling metrics, original source, and 13 automated tests.",
+    "url": "courses/operating-systems/",
+    "source": "courses/operating-systems/source.zip"
   }
 ]

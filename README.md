@@ -18,6 +18,12 @@ Sixteen Python algorithms covering sorting, searching, dynamic programming, grap
 
 [Course documentation](courses/algorithms/README.md) · [Python code](courses/algorithms/algorithms)
 
+### Operating Systems — CPU Scheduling
+
+Implemented and reviewed six CPU scheduling policies: FCFS, Round Robin, SPN, SRTF, HRRN, and MLFQ. Includes scheduling metrics, optional Gantt charts, preserved original files, and regression tests.
+
+[Documentation and run instructions](courses/operating-systems/README.md) · [Code](courses/operating-systems/scheduling.py)
+
 ## Training
 
 - Rahnema College: Back-End Development Bootcamp, November 2025 — Node.js, TypeScript, Docker, databases, testing and CI/CD.
