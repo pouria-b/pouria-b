@@ -32,10 +32,10 @@
     "source": "courses/theory-of-computation/source.zip"
   },
   {
-    "title": "Programming — Hill Cipher & Sudoku",
+    "title": "Programming — C++ & Python",
     "category": "University coursework",
-    "language": "C++17",
-    "summary": "Reviewed 3×3 Hill Cipher encryption and a Sudoku backtracking solver with input validation, source provenance, build instructions, and nine compiled regression tests.",
+    "language": "C++17 / Python",
+    "summary": "Hill Cipher, Sudoku, a ten-option Python coursework menu, and email/mobile format checks. Includes original source, documentation, nine compiled C++ tests and eight Python tests.",
     "url": "courses/programming/",
     "source": "courses/programming/source.zip"
   }

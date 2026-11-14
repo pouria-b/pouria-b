@@ -103,4 +103,31 @@ Tests build in a temporary directory; generated binaries are not committed. Veri
 - `original/`: uploaded `hill cipher.cpp`, `sudoku.cpp` and `main.cpp`, unchanged.
 - `CHANGELOG.md`: review summary.
 
-The other uploaded Python projects are outside this Hill Cipher/Sudoku course entry. No course grade, instructor or semester has been supplied.
+## Python exercises
+
+Two additional uploads are included under `python/`. They use the standard library only and need Python 3.9+.
+
+```bash
+python python/final_project.py
+python python/email_regex.py email 'name+tag@example.com'
+python python/email_regex.py phone '09123456789'
+python -m unittest discover -s python -p test_python_programs.py -v
+```
+
+### final_project.py
+
+A ten-option menu covers number comparison, a text histogram, factorial, Fibonacci, geometry, vowel counts, shared-bill allocation, Unicode code-point encoding/decoding, a string-search exercise, and SMS keypad press totals. Type `back` to return or `end` to exit. EOF and keyboard interruption terminate cleanly. Importing the module does not prompt for input.
+
+Corrections include the unreachable `decode` branch, accidental lowercasing of encoded text, the duplicate keypad key 3 (wxyz now uses key 9), invalid keypad indexing, negative factorial/Fibonacci input and geometric dimensions, and the recursive Fibonacci implementation (now iterative). Code-point encoding is a reversible text representation, not encryption. SMS reports total key presses per digit for the supplied English-letter/punctuation mapping; it does not send messages or model pauses between repeated keys.
+
+The upload's special exceptions for 10 < y < 20, factorial input 5 and Fibonacci count 8 are retained rather than silently assuming they were unwanted. The histogram still prints `4444` on its fourth row. The search exercise also retains its original behavior: it reports one-based positions of the letter `f`, using the entered text when its length is at least 10 and otherwise a fixed sample string. These unusual conditions may reflect assignment requirements; they are not general-purpose mathematical restrictions. Unsupported geometry/mode choices can still return without a calculation. Shared-bill allocation uses the original fixed household counts and floating-point amounts; it is a classroom arithmetic exercise.
+
+### email_regex.py
+
+`validate_email(text)` and `validate_phone(text)` return booleans without printing. The CLI prints the boolean result. Full-string matching rejects trailing newlines and unwanted suffixes. Email validation implements a documented ASCII subset: dotted local-part segments containing letters, digits, underscore, plus, percent and hyphen; DNS-style domain labels; and an alphabetic final label of 2–63 characters. It allows digits including zero, subdomains and variable-length suffixes. Local-part and total lengths are limited to 64 and 254 characters. Quoted local parts, many other permitted special characters and internationalized addresses are not supported. It is a practical classroom format check, not complete email-standard compliance or mailbox verification.
+
+Mobile validation accepts ASCII digits in exactly these three shapes: `09` + nine digits, `+989` + nine digits, and `00989` + nine digits. Other types/lengths return False. Spaces, separators and Persian digits are not normalized. No claim is made about active operator prefixes, allocation or reachability.
+
+Eight Python tests cover formats, return types, code-point round-trips, factorial/Fibonacci, keypad totals, geometry, retained exercise conditions and clean imports/EOF. Both original Python uploads are preserved unchanged under `python/original/`.
+
+No course grade, instructor or semester has been supplied.

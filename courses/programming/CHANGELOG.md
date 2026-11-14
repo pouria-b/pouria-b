@@ -19,3 +19,11 @@
 
 - Added sample input, C++17 build instructions, optional CMake config, and nine passing compiled regression tests.
 - All three original C++ files retained byte-for-byte under original/.
+
+## Python exercises added
+
+- Added original final_project.py and email_regex.py under python/original/.
+- Corrected decode selection, case preservation, keypad mapping/iteration, input checks and import-time behavior.
+- Changed recursive Fibonacci to iteration; retained documented assignment-specific exceptions and search/histogram behavior.
+- Validators now return booleans and use full-string ASCII matching; added CLI and explicit format limitations.
+- Added eight passing Python tests. C++ programs remain unchanged.
