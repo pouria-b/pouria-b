@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Algorithm Design & Analysis",
+    "category": "University coursework",
+    "language": "Python",
+    "summary": "Sixteen implementations covering sorting, searching, dynamic programming, graphs, greedy methods, and recursion. Includes run instructions, examples, and documented limitations.",
+    "url": "courses/algorithms/",
+    "source": "courses/algorithms/source.zip"
+  }
+]
