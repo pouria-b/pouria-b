@@ -24,6 +24,12 @@ Implemented and reviewed six CPU scheduling policies: FCFS, Round Robin, SPN, SR
 
 [Documentation and run instructions](courses/operating-systems/README.md) · [Code](courses/operating-systems/scheduling.py)
 
+### Computational Intelligence — Optimization Benchmarks
+
+27 numerical minimization objectives with NumPy utilities and a reviewed PSO/GA experiment runner. Includes reproducible noise, evaluation budgets, CSV validation and tests. Original PSO/GA implementations are pending; no performance results are claimed.
+
+[Documentation](courses/computational-intelligence/README.md) · [Code](courses/computational-intelligence/ci_benchmarks)
+
 ## Training
 
 - Rahnema College: Back-End Development Bootcamp, November 2025 — Node.js, TypeScript, Docker, databases, testing and CI/CD.

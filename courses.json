@@ -14,5 +14,13 @@
     "summary": "Six scheduling policies: FCFS, Round Robin, SPN, SRTF, HRRN, and MLFQ. Includes corrected code, Gantt charts, scheduling metrics, original source, and 13 automated tests.",
     "url": "courses/operating-systems/",
     "source": "courses/operating-systems/source.zip"
+  },
+  {
+    "title": "Computational Intelligence — Optimization Benchmarks",
+    "category": "University coursework",
+    "language": "Python / NumPy",
+    "summary": "27 numerical objectives, seeded noise, evaluation budgets, and a documented PSO/GA experiment runner. Optimizer modules are pending; eight tests validate supplied components.",
+    "url": "courses/computational-intelligence/",
+    "source": "courses/computational-intelligence/source.zip"
   }
 ]
