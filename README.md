@@ -11,7 +11,7 @@ Bachelor’s project, summer 2026 · Grade: **19.75/20** · Advisor: **Dr. Tabat
 
 Fine-tuned pretrained YOLOv8s on video frames for two-class detection, corrected labels, compared three training experiments on an NVIDIA T4 GPU, evaluated detections, and exported models to ONNX. Investigated overlap across dataset splits and limitations in evaluation on unseen videos.
 
-[Project overview](projects/bird-vs-drone.html)
+[Project overview](projects/bird-vs-drone.html) · [Original project plan from Google Drive](projects/bird-vs-drone/PROJECT_PLAN.md)
 
 ### Algorithm Design and Analysis
 Sixteen Python algorithms covering sorting, searching, dynamic programming, graphs, greedy methods, and recursion. Includes original source, a corrected runnable package, examples, limitations, and correctness tests.
