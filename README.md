@@ -30,6 +30,12 @@ Implemented and reviewed six CPU scheduling policies: FCFS, Round Robin, SPN, SR
 
 [Documentation](courses/computational-intelligence/README.md) · [Code](courses/computational-intelligence/ci_benchmarks)
 
+### Theory of Computation — DFA Visualizer
+
+Eight-state binary DFA accepting strings whose third symbol from the right is 1. Includes an optional Pygame interface, dependency-free recognizer, supplied diagram, and seven passing tests. GUI execution has not been verified in the review environment.
+
+[Documentation](courses/theory-of-computation/README.md) · [Code](courses/theory-of-computation/automaton.py)
+
 ## Training
 
 - Rahnema College: Back-End Development Bootcamp, November 2025 — Node.js, TypeScript, Docker, databases, testing and CI/CD.

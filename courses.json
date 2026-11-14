@@ -22,5 +22,13 @@
     "summary": "27 numerical objectives, seeded noise, evaluation budgets, and a documented PSO/GA experiment runner. Optimizer modules are pending; eight tests validate supplied components.",
     "url": "courses/computational-intelligence/",
     "source": "courses/computational-intelligence/source.zip"
+  },
+  {
+    "title": "Theory of Computation — DFA Visualizer",
+    "category": "University coursework",
+    "language": "Python / Pygame",
+    "summary": "Eight-state binary automaton with optional interactive visualization, explicit acceptance, reset and undo. Seven tests cover all 16 transitions and 8,191 input strings; GUI execution remains unverified.",
+    "url": "courses/theory-of-computation/",
+    "source": "courses/theory-of-computation/source.zip"
   }
 ]
